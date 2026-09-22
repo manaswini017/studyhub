@@ -213,22 +213,21 @@ The retrieved context is provided to an LLM, which generates the final natural-l
 ## Project Structure
 
 ```text
-studyhub/
-│
+StudyHub/
 ├── app/
 │   ├── main.py
-│   ├── ...
-│   └── ...
-│
-├── venv/
-│
-├── .env
-├── .gitignore
+│   ├── llm.py
+│   ├── rag.py
+│   └── database.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── style.css
+│   └── script.js
 ├── requirements.txt
-└── README.md
+└── .gitignore
 ```
 
-> `venv/` and `.env` should not be uploaded to GitHub.
 
 ---
 
